@@ -1,0 +1,182 @@
+body{
+
+	font-family:Lato, Arial, sans-serif;
+}
+
+hr{
+	width:60%;
+	margin-top:60px;
+	margin-bottom:60px;
+}
+
+h2{
+	font-weight:700;
+	margin-bottom:20px;
+	color:#007bd0;
+	text-transform: uppercase;
+}
+
+h4{
+	text-transform: uppercase;
+	font-weight: 700;
+	margin:10px 0;
+}
+
+/*MENU*/
+
+.navbar-expand-md .navbar-nav .nav-link{
+	padding-right:1.5rem;
+	color:#202020;
+}
+
+.navbar-expand-md .navbar-nav .nav-link:hover{
+	color:#007bd0;
+}
+
+nav img{
+	width:210px;
+}
+
+@media only screen and (min-width: 380px) {
+    nav img {
+        width:55%;
+    }
+}
+
+.navbar-nav .nav-link{
+	text-align:center;
+}
+
+.fixed-top{
+	background-color: white;
+}
+
+
+/*SLIDER*/
+
+#karuzela{
+	padding-top:70px;
+}
+
+
+/*O NAS*/
+
+.desc p{
+	line-height: 32px;
+}
+
+
+
+/*USŁUGI*/
+
+.service, .service_2{
+	text-align:center;
+}
+
+.service{
+	padding-bottom:80px;
+}
+
+.offer h2{
+	margin-bottom:50px;
+}
+
+.service img{
+	margin-bottom:15px;
+}
+
+.service_2 img{
+	margin-bottom:15px;
+}
+
+
+/*STATYSTYKI*/
+
+.count .col{
+	text-align: center;
+}
+
+.count .col span{
+	font-size:30px;
+}
+
+.count .col h4{
+	font-size:30px;
+	color:#007bd0;
+}
+
+
+
+/*MAPA GOOGLE*/
+
+#map-container {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    height:500px;
+
+}
+
+.maps h2{
+	text-align: center;
+}
+
+
+/*KONTAKT*/
+
+.contact{
+	position:relative !important;
+	margin-top:500px;
+}
+
+.material-icons{
+	color:#007bd0;
+	float:left;
+	margin-right:5px;
+}
+
+.contact h3{
+	color:#007bd0;
+	text-transform: uppercase;
+	font-weight: 700;
+	margin-bottom:20px;
+}
+
+.contact p{
+	line-height: 32px;
+}
+
+.space{
+	line-height:0;
+	margin-bottom:15px;
+}
+
+/*FORMULARZ*/
+
+label{
+	color:#007bd0;
+	font-weight: 700;
+}
+
+.form-control:focus {
+  border-color: rgba(0, 123, 208, 1);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(126, 239, 104, 0.6);
+}
+
+/*STOPKA*/
+
+.footer{
+	margin-top:30px;
+	text-align: center;
+	background-color: #efefef;
+	width:100%;
+	position: relative;
+}
+
+.footer p{
+	margin-top:5px;
+}
+
+
+
+
